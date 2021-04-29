@@ -1,0 +1,9 @@
+.post-card {
+    border-style: solid;
+    border-radius: 5px;
+    border-width: 1px;
+    border-color: rgb(150, 150, 150);
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+}
