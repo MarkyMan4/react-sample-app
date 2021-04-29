@@ -12,7 +12,7 @@ export const getAllPosts = async () => {
 
 export const getSinglePost = async (postId) => {
     return await axios.get(
-        'https://jsonplaceholder.typicode.com/posts/' + postId
+        `https://jsonplaceholder.typicode.com/posts/${postId}`
     ).then(res => {
         return res.data;
     }).catch(err => {

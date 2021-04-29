@@ -4,6 +4,9 @@
     border-width: 1px;
     border-color: rgb(150, 150, 150);
     width: 50%;
+}
+
+.center {
     display: block;
     margin: 0 auto;
 }
