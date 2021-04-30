@@ -1,8 +1,8 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import './styles.css';
 import React from 'react';
-import Home from './components/home';
-import Post from './components/post';
+import Home from './pages/home';
+import Post from './pages/post';
 import {
   BrowserRouter as Router,
   Switch,
