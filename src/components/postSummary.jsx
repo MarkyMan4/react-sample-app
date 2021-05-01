@@ -25,7 +25,7 @@ function PostSummary(props) {
     return (
         <div className="post-card center shadow mt-4">
             <div className="m-2">
-            <Link to={"/post/" + postId} params={{postId: postId}}><h3>{title}</h3></Link>
+            <Link to={"/post/" + postId}><h3>{title}</h3></Link>
             <h5>{username}</h5>
             </div>
         </div>
